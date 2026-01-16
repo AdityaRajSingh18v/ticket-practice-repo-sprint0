@@ -123,5 +123,3 @@ A Version Control System is an essential tool in modern software development. It
 | Links | Descriptions |
 |------|-------------|
 | https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control | Official Git documentation explaining Version Control concepts |
-| https://www.atlassian.com/git/tutorials/what-is-version-control | Reference for understanding VCS types and workflows |
-| https://github.com/OT-MICROSERVICES/documentation-template/wiki/Software-Template | Documentation format reference used for structuring this document |
