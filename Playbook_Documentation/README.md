@@ -79,7 +79,7 @@ To use an Ansible Playbook, follow the steps below:
 | Links | Descriptions |
 |------|-------------|
 | https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html | Official Ansible documentation explaining Ansible Playbooks and their usage |
-| https://thecontentauthority.com/blog/introduction-vs-overview | Reference used to understand the difference between Introduction and Overview sections in documentation |
+
 
 ---
 
