@@ -4,7 +4,7 @@
 
 | Author | Created on | Version | Last updated by | Last edited on |
 |------|-----------|---------|----------------|---------------|
-| Aditya Raj Singh | 16-01-2026 | Version 1 | Aditya Raj Singh | 16-01-2026 |
+| Aditya Raj Singh | 16-01-2026 | Version 1 | Aditya Raj Singh | 19-01-2026 |
 
 ---
 
@@ -142,8 +142,7 @@ A Version Control System is an essential tool in modern software development. It
 
 | Role | Contact |
 |----|--------|
-| DevOps Team | devops-team@example.com |
-| Documentation Owner | adityarajsingh@example.com |
+| Documentation Owner | tadityaraj.singh18@gmail.com |
 
 ---
 
