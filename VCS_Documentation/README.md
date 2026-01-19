@@ -37,25 +37,54 @@ Version Control Systems are used to:
 
 ## Types of Version Control Systems
 
-### 1. Local Version Control System
-Stores file versions on a local system only.  
-Example: Manual backups or simple local tracking tools.
+Version Control Systems can be broadly classified into three types based on how code is stored, accessed, and shared among users.
+
+---
+
+### 1. Local Version Control System (LVCS)
+
+A Local Version Control System manages file versions on a single local machine. In this approach, different versions of files are stored locally, either by manually saving copies or by using simple tools that track changes.
+
+In LVCS, version history is available only on the developer’s system, and there is no built-in mechanism for collaboration with other users. All changes are maintained locally, making it suitable only for individual work.
+
+Local version control systems were commonly used before team-based software development became widespread.
+
+**Example Use Case:**
+- Individual developers working on small or experimental projects  
+- Manual version tracking using local backups  
+
+
 
 ### 2. Centralized Version Control System (CVCS)
-Uses a central server to store all versions.  
-Developers check out files from a single repository.
 
-Examples:
-- SVN (Subversion)
-- CVS (Concurrent Versions System)
+A Centralized Version Control System uses a single central server that stores the complete repository and version history. Developers connect to this server to check out files, make changes locally, and commit those changes back to the central repository.
+
+The central server acts as the single source of truth, controlling access and maintaining the project history. All version tracking, collaboration, and management are handled through this centralized repository.
+
+**Common Examples:**
+- SVN (Subversion)  
+- CVS (Concurrent Versions System)  
+
+**Workflow Overview:**
+- Developer checks out code from the central repository  
+- Makes changes locally  
+- Commits changes back to the server  
+
+
 
 ### 3. Distributed Version Control System (DVCS)
-Each user has a complete copy of the repository, including history.  
-Provides better performance and offline access.
 
-Examples:
-- Git
-- Mercurial
+A Distributed Version Control System provides each developer with a complete copy of the repository, including the entire version history. Instead of relying solely on a central server, every user has a full repository locally.
+
+Developers can commit changes locally and later synchronize them with a shared remote repository. This model supports flexible workflows and allows teams to collaborate efficiently across different locations.
+
+**Common Examples:**
+- Git  
+- Mercurial  
+
+**Workflow Overview:**
+- Developer clones the full repository  
+- Makes and c
 
 ---
 
