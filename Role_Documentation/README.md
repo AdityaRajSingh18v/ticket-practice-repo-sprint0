@@ -37,22 +37,22 @@ Ansible Roles are used to improve code reusability, readability, and maintainabi
 
 Ansible Roles come with several key features that make them powerful:
 
-### Modular Structure
+### 1. Modular Structure
 Roles follow a predefined directory layout including folders like `tasks`, `handlers`, `vars`, `defaults`, `files`, and `templates`, which helps organize automation logically.
 
-### Reusability
+### 2. Reusability
 The same role can be included in different playbooks or projects without rewriting code.
 
-### Maintainability
+### 3. Maintainability
 Centralizing related automation in one role makes updates easier and reduces errors across different playbooks where it is used.
 
-### Readability & Clarity
+### 4. Readability & Clarity
 Playbooks become shorter and more readable because roles encapsulate logic behind clear and meaningful names.
 
-### Dependencies Support
+### 5. Dependencies Support
 Roles can declare dependencies on other roles, enabling layered and hierarchical automation designs.
 
-### Best Practice Enforcement
+### 6. Best Practice Enforcement
 Because roles follow a standard structure, teams can maintain consistent quality and documentation style.
 
 ---
@@ -89,8 +89,6 @@ To use an Ansible Role, follow the steps below:
 | Links | Descriptions |
 |------|-------------|
 | https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html | Official Ansible documentation explaining Ansible Roles, their structure, and usage |
-| https://thecontentauthority.com/blog/introduction-vs-overview | Reference used to understand the difference between Introduction and Overview sections in documentation |
-
 ---
 
 ## Summary
