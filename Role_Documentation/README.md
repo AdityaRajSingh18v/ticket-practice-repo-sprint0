@@ -1,14 +1,14 @@
 # Ansible Role Intro Documentation
 
 ---
-## Document Details
+## 🔹 Document Details
 
 | Author    | Created on | Version   | Last updated by | Last edited on |
 | --------- | ---------- | --------- | --------------- | -------------- |
 | Aditya Raj Singh | 16-01-2026  | Version 1 | Aditya Raj Singh | 19-01-2026 |
 ---
 
-## Introduction
+## 🔹 Introduction
 
 Ansible Roles provide a structured and modular way to organize automation code in Ansible. A Role separates tasks, variables, handlers, templates, and dependencies into logical components, making automation repeatable, reusable, and easier to manage.
 
@@ -16,7 +16,7 @@ Roles help teams build scalable configuration management and deployment solution
 
 ---
 
-## Purposes
+## 🔹 Purposes
 
 The primary purposes of Ansible Roles are:
 
@@ -27,13 +27,13 @@ The primary purposes of Ansible Roles are:
 
 ---
 
-## Why Ansible Roles are Used
+## 🔹 Why Ansible Roles are Used
 
 Ansible Roles are used to improve code reusability, readability, and maintainability. They help standardize automation practices across teams and projects, reduce duplication of tasks, and make complex playbooks easier to understand and manage.
 
 ---
 
-## Key Features
+## 🔹 Key Features
 
 Ansible Roles come with several key features that make them powerful:
 
@@ -57,7 +57,7 @@ Because roles follow a standard structure, teams can maintain consistent quality
 
 ---
 
-## Ansible Roles
+## 🔹 Ansible Roles
 
 An Ansible Role follows a standardized directory structure that helps organize automation code in a clear and modular way.
 
@@ -67,7 +67,7 @@ An Ansible Role follows a standardized directory structure that helps organize a
 
 ---
 
-## How to Use
+## 🔹 How to Use
 
 To use an Ansible Role, follow the steps below:
 
@@ -84,14 +84,14 @@ To use an Ansible Role, follow the steps below:
 
 ---
 
-## References
+## 🔹 References
 
 | Links | Descriptions |
 |------|-------------|
 | https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html | Official Ansible documentation explaining Ansible Roles, their structure, and usage |
 ---
 
-## Summary
+## 🔹 Summary
 
 Ansible Roles provide a structured and modular approach to managing automation code. By organizing tasks, variables, handlers, templates, and dependencies into reusable components, roles improve readability, maintainability, and scalability of Ansible playbooks. They help teams follow best practices, reduce duplication, and simplify complex automation workflows across different environments.
 
