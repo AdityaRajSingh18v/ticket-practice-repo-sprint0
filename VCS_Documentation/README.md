@@ -1,14 +1,14 @@
-# Version Control System (VCS) – Documentation
+# 🧩 Version Control System (VCS) – Documentation
 
-## Document Details
+## 🔹 Document Details
 
 | Author | Created on | Version | Last updated by | Last edited on |
 |------|-----------|---------|----------------|---------------|
-| Aditya Raj Singh | 16-01-2026 | Version 1 | Aditya Raj Singh | 19-01-2026 |
+| Aditya Raj Singh | 16-01-2026 | Version 1 | Aditya Raj Singh | 20-01-2026 |
 
 ---
 
-## Introduction
+## 🔹 Introduction
 
 A Version Control System (VCS) is a tool that helps manage changes to source code and other files over time. It allows multiple users to work on the same project simultaneously while maintaining a complete history of changes.
 
@@ -16,13 +16,13 @@ VCS plays a critical role in modern software development by ensuring code integr
 
 ---
 
-## What is a Version Control System (VCS)
+## 🔹 What is a Version Control System (VCS)
 
 A Version Control System is a system that records changes made to files so that specific versions can be recalled later. It helps developers track who made changes, when changes were made, and why those changes were introduced.
 
 ---
 
-## Why Version Control System is Used
+## 🔹 Why Version Control System is Used
 
 Version Control Systems are used to:
 
@@ -35,7 +35,7 @@ Version Control Systems are used to:
 
 ---
 
-## Types of Version Control Systems
+## 🔹 Types of Version Control Systems
 
 Version Control Systems can be broadly classified into three types based on how code is stored, accessed, and shared among users.
 
@@ -88,7 +88,7 @@ Developers can commit changes locally and later synchronize them with a shared r
 
 ---
 
-## Advantages of Version Control System
+## 🔹 Advantages of Version Control System
 
 - Maintains complete change history
 - Enables team collaboration
@@ -99,7 +99,7 @@ Developers can commit changes locally and later synchronize them with a shared r
 
 ---
 
-## Disadvantages of Version Control System
+## 🔹 Disadvantages of Version Control System
 
 - Initial learning curve for beginners
 - Requires proper access control management
@@ -108,7 +108,7 @@ Developers can commit changes locally and later synchronize them with a shared r
 
 ---
 
-## VCS Workflow
+## 🔹 VCS Workflow
 
 
 A typical VCS workflow includes:
@@ -121,7 +121,7 @@ A typical VCS workflow includes:
 
 ---
 
-## Best Practices
+## 🔹 Best Practices
 
 - Commit changes frequently with clear messages
 - Use meaningful branch names
@@ -132,13 +132,13 @@ A typical VCS workflow includes:
 
 ---
 
-## Conclusion
+## 🔹 Conclusion
 
 A Version Control System is an essential tool in modern software development. It ensures code consistency, enables collaboration, and provides a reliable mechanism to track and manage changes. By following best practices and choosing the right type of VCS, teams can significantly improve development efficiency and software quality.
 
 ---
 
-## Contact Information
+## 🔹 Contact Information
 
 | Role | Contact |
 |----|--------|
@@ -146,7 +146,7 @@ A Version Control System is an essential tool in modern software development. It
 
 ---
 
-## References
+## 🔹 References
 
 | Links | Descriptions |
 |------|-------------|
