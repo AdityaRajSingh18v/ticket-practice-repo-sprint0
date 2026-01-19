@@ -44,22 +44,22 @@ An Ansible Playbook is a YAML file that contains one or more plays. Each play de
 
 Ansible Playbooks come with several key features that make them powerful:
 
-### Simple YAML Syntax
+### 1. Simple YAML Syntax
 Playbooks use YAML, which is easy to read, write, and understand.
 
-### Task-Based Execution
+### 2. Task-Based Execution
 Automation is divided into small, logical tasks that run in a defined sequence.
 
-### Idempotency
+### 3. Idempotency
 Playbooks ensure systems reach the desired state without making unnecessary changes.
 
-### Reusability
+### 4. Reusability
 Playbooks can reuse roles, variables, and templates across multiple projects.
 
-### Scalability
+### 5. Scalability
 The same playbook can be executed on one or many servers simultaneously.
 
-### Error Handling and Control
+### 6. Error Handling and Control
 Playbooks support conditionals, loops, tags, and error handling for flexible automation.
 
 ---
