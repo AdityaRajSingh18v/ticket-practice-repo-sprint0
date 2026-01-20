@@ -86,3 +86,18 @@ To use an Ansible Playbook, follow the steps below:
 ## 🔹 Summary
 
 Ansible Playbooks provide a simple and powerful way to automate infrastructure and application workflows. By defining tasks in a clear and structured format, playbooks improve consistency, scalability, and reliability while reducing manual effort and operational errors.
+
+---
+
+## 🔹 Author
+
+| Name             | Role            | Team                 |
+| ---------------- | --------------- | -------------------- |
+| Aditya Raj Singh | DevOps Trainee | Saarthi |
+
+
+## 🔹 Contact Information
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [tadityaraj.singh18@gmail.com](mailto:tadityaraj.singh18@gmail.com) |
