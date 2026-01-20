@@ -7,6 +7,25 @@
 | Aditya Raj Singh | 16-01-2026 | Version 1 | Aditya Raj Singh | 20-01-2026 |
 
 ---
+## 🔹 Table of Contents
+
+- [Introduction](#-introduction)
+- [What is a Version Control System (VCS)](#-what-is-a-version-control-system-vcs)
+- [Why Version Control System is Used](#-why-version-control-system-is-used)
+- [Types of Version Control Systems](#-types-of-version-control-systems)
+  - [Local Version Control System (LVCS)](#1-local-version-control-system-lvcs)
+  - [Centralized Version Control System (CVCS)](#2-centralized-version-control-system-cvcs)
+  - [Distributed Version Control System (DVCS)](#3-distributed-version-control-system-dvcs)
+- [Advantages of Version Control System](#-advantages-of-version-control-system)
+- [Disadvantages of Version Control System](#-disadvantages-of-version-control-system)
+- [VCS Workflow](#-vcs-workflow)
+- [Best Practices](#-best-practices)
+- [Conclusion](#-conclusion)
+- [Author](#-author)
+- [Contact Information](#-contact-information)
+- [References](#-references)
+
+---
 
 ## 🔹 Introduction
 
