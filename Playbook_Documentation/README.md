@@ -8,6 +8,27 @@
 
 ---
 
+## 🔹 Table of Contents
+
+- [Introduction](#-introduction)
+- [Purposes](#-purposes)
+- [Why Ansible Playbooks are Used](#-why-ansible-playbooks-are-used)
+- [What is an Ansible Playbook](#-what-is-an-ansible-playbook)
+- [Key Features](#-key-features)
+  - [Simple YAML Syntax](#1-simple-yaml-syntax)
+  - [Task-Based Execution](#2-task-based-execution)
+  - [Idempotency](#3-idempotency)
+  - [Reusability](#4-reusability)
+  - [Scalability](#5-scalability)
+  - [Error Handling and Control](#6-error-handling-and-control)
+- [How to Use](#-how-to-use)
+- [References](#-references)
+- [Summary](#-summary)
+- [Author](#-author)
+- [Contact Information](#-contact-information)
+
+---
+
 ## 🔹 Introduction
 
 Ansible Playbooks are the core component of Ansible used to define automation workflows in a simple, human-readable format. Playbooks describe what tasks should be executed, on which hosts, and in what order using YAML syntax.
