@@ -1,3 +1,4 @@
+
 # 🧩 Ansible Role Intro Documentation
 
 ---
@@ -82,7 +83,63 @@ An Ansible Role follows a standardized directory structure that helps organize a
 
 ### Role Structure
 
-<img width="1200" height="1598" alt="image" src="https://github.com/user-attachments/assets/97c3c206-6e05-4362-a866-4e4bedd078de" />
+                        roles/
+                        
+                        ├── role_1/
+                        
+                        │ ├── tasks/
+                        
+                        │ │ └── main.yml      # Defines tasks for the role
+                        
+                        │ ├── handlers/
+                        
+                        │ │ └── main.yml      # Handlers triggered by notify actions
+                        
+                        │ ├── templates/
+                        
+                        │ │ └── config.j2     # Jinja2 templates for dynamic configs
+                        
+                        │ ├── files/
+                        
+                        │ │ ├── file.txt      # Static file copied to target hosts
+                        
+                        │ │ └── script.sh     # Scripts used by tasks
+                        
+                        │ ├── vars/
+                        
+                        │ │ └── main.yml      # Variables specific to the role
+                        
+                        │ ├── defaults/
+                        
+                        │ │ └── main.yml      # Default variables (can be overridden)
+                        
+                        │ ├── meta/
+                        
+                        │ │ └── main.yml      # Role metadata and dependencies
+                        
+                        │ ├── library/
+                        
+                        │ │ └── custom_module.py     # Custom Ansible modules for the role
+                        
+                        │ ├── module_utils/
+                        
+                        │ │ └── helpers.py     # Shared helper utilities for modules
+                        
+                        │ └── plugins/
+                        
+                        │ └── plugin.py        # Plugins to extend Ansible functionality
+                        
+                        │
+                        
+                        ├── role_2/
+                        
+                        │ └── ...              # Same structure as role_1
+                        
+                        │
+                        
+                        └── role_3/
+                        
+                        └── ...                # Same structure as role_1
 
 ---
 
@@ -114,4 +171,15 @@ To use an Ansible Role, follow the steps below:
 
 Ansible Roles provide a structured and modular approach to managing automation code. By organizing tasks, variables, handlers, templates, and dependencies into reusable components, roles improve readability, maintainability, and scalability of Ansible playbooks. They help teams follow best practices, reduce duplication, and simplify complex automation workflows across different environments.
 
+## 🔹 Author
 
+| Name             | Role            | Team                 |
+| ---------------- | --------------- | -------------------- |
+| Aditya Raj Singh | DevOps Trainee | Saarthi |
+
+
+## 🔹 Contact Information
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [tadityaraj.singh18@gmail.com](mailto:tadityaraj.singh18@gmail.com) |
