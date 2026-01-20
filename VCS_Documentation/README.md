@@ -138,11 +138,18 @@ A Version Control System is an essential tool in modern software development. It
 
 ---
 
+## 🔹 Author
+
+| Name             | Role            | Team                 |
+| ---------------- | --------------- | -------------------- |
+| Aditya Raj Singh | DevOps Trainee | Saarthi |
+
+
 ## 🔹 Contact Information
 
-| Role | Contact |
-|----|--------|
-| Documentation Owner | tadityaraj.singh18@gmail.com |
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [tadityaraj.singh18@gmail.com](mailto:tadityaraj.singh18@gmail.com) |
 
 ---
 
