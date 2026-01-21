@@ -205,7 +205,11 @@ Restarts a service.
 Displays IP address information.
 
           ip a
-
+### 🔹 telnet
+#### Description:
+Used to test connectivity to a specific port on a remote server.
+          
+          telnet google.com 80
 ### 🔹 ping
 
 #### Description:
