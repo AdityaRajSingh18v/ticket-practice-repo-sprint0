@@ -2,14 +2,14 @@
 
 ---
 
-## 📌Overview
+## Introduction
 
 This document provides a list of **commonly used Ubuntu (Linux) commands** that are frequently used in day-to-day system administration, application support, and DevOps operations.  
 
 
 ---
 
-## 🎯Purpose
+## Purpose
 
 The purpose of this SOP is to:
 - Standardize the usage of common Ubuntu commands
@@ -18,7 +18,7 @@ The purpose of this SOP is to:
 
 ---
 
-## 📦Scope
+## Scope
 
 This SOP applies to:
 - Ubuntu-based systems (server and desktop)
@@ -27,7 +27,7 @@ This SOP applies to:
 
 ---
 
-## 🧰Prerequisites
+## Prerequisites
 
 - Access to an Ubuntu system
 - Terminal or SSH access
@@ -220,3 +220,18 @@ Shows previously executed commands.
 Clears terminal output.
 
           clear
+
+---         
+## 🛠 Best Practices
+
+- Use `less` instead of `cat` for large files
+- Verify process IDs before using `kill -9`
+- Regularly monitor disk usage using `df` and `du`
+- Use `sudo` only when required
+
+---
+
+## 🌐Conclusion
+
+This SOP provides a practical reference for commonly used Ubuntu commands required for daily operational tasks.  
+It helps improve efficiency, reduce errors, and maintain standard practices across teams.
