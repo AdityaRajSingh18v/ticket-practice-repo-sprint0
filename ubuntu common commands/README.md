@@ -6,6 +6,30 @@
 | ---------------- | ---------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
 | Aditya Raj Singh | 2026-01-20 | 1.0     | Aditya Raj Singh | 2026-01-20     |              |             |             |             | 
 
+---
+
+## 📑 Table of Contents
+
+1. [Document Details](#-document-details)
+2. [Introduction](#1-introduction)
+3. [Purpose](#2-purpose)
+4. [Scope](#3-scope)
+5. [Prerequisites](#4-prerequisites)
+6. [File & Content Management Commands](#5-file--content-management-commands)
+7. [Directory & Disk Usage](#6-directory--disk-usage)
+8. [System Information](#7-system-information)
+9. [Process Management](#8-process-management)
+10. [Permissions & Ownership](#9-permissions--ownership)
+11. [Package Management](#10-package-management)
+12. [Service Management](#11-service-management)
+13. [Networking (Common Use)](#12-networking-common-use)
+14. [User & Session Management](#13-user--session-management)
+15. [Utility Commands](#14-utility-commands)
+16. [Best Practices](#15-best-practices)
+17. [Conclusion](#16-conclusion)
+18. [Author](#-author)
+19. [Contact Information](#-contact-information)
+20. [References](#-references)
 
 ---
 ## 1. Introduction
