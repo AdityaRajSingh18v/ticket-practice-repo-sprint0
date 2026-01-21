@@ -1,6 +1,13 @@
 # 📘 SOP – Common Ubuntu Commands
 
+## 🔹 Document Details
 
+| Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- | ---------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
+| Aditya Raj Singh | 2026-01-20 | 1.0     | Aditya Raj Singh | 2026-01-20     |              |             |             |             | 
+
+
+---
 ## 1. Introduction
 
 This document provides a list of **commonly used Ubuntu (Linux) commands** that are frequently used in day-to-day system administration, application support, and DevOps operations.  
@@ -234,4 +241,25 @@ Clears terminal output.
 
 This SOP provides a practical reference for commonly used Ubuntu commands required for daily operational tasks.  
 It helps improve efficiency, reduce errors, and maintain standard practices across teams.
+
+## 🔹 Author
+
+| Name             | Role            | Team                 |
+| ---------------- | --------------- | -------------------- |
+| Aditya Raj Singh | DevOps Trainee | Saarthi |
+
+
+## 🔹 Contact Information
+
+| Contact Type | Details                                                             |
+| ------------ | ------------------------------------------------------------------- |
+| Email        | [tadityaraj.singh18@gmail.com](mailto:tadityaraj.singh18@gmail.com) |
+
+---
+
+## 🔹 References
+
+| Links | Descriptions |
+|------|-------------|
+| https://www.geeksforgeeks.org/linux-unix/25-basic-ubuntu-commands/ | Basic Ubuntu Commands |
 
