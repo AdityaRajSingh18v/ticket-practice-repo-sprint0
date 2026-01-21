@@ -242,7 +242,6 @@ These practices help reduce security risks and improve application stability.
 | Links | Descriptions |
 |------|-------------|
 | https://pip.pypa.io/en/stable/reference/requirements-file-format/ | Official pip documentation explaining the `requirements.txt` file format |
-| https://pip.pypa.io/en/stable/ | Official pip documentation for Python package management |
 | https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/ | Python Packaging User Guide covering dependency installation and environment management |
 | https://docs.python.org/3/library/venv.html | Official Python documentation for creating and using virtual environments |
 
