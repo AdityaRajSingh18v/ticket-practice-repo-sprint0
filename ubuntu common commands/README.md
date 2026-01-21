@@ -1,15 +1,14 @@
 # 📘 SOP – Common Ubuntu Commands
 
----
 
-## Introduction
+## 1. Introduction
 
 This document provides a list of **commonly used Ubuntu (Linux) commands** that are frequently used in day-to-day system administration, application support, and DevOps operations.  
 
 
 ---
 
-## Purpose
+## 2. Purpose
 
 The purpose of this SOP is to:
 - Standardize the usage of common Ubuntu commands
@@ -18,7 +17,7 @@ The purpose of this SOP is to:
 
 ---
 
-## Scope
+## 3. Scope
 
 This SOP applies to:
 - Ubuntu-based systems (server and desktop)
@@ -27,7 +26,7 @@ This SOP applies to:
 
 ---
 
-## Prerequisites
+## 4. Prerequisites
 
 - Access to an Ubuntu system
 - Terminal or SSH access
@@ -35,7 +34,7 @@ This SOP applies to:
 
 ---
 
-## 📂File & Content Management Commands
+## 5. File & Content Management Commands
 ---
 ### 🔹cat
 #### Description:
@@ -65,7 +64,7 @@ Searches text inside files.
 
 ---
 
-## 📂Directory & Disk Usage
+## 6. Directory & Disk Usage
 ---
 ### 🔹du
 #### Description:
@@ -79,7 +78,7 @@ Displays filesystem disk usage.
           df -h
 ---
 
-## 🖥 System Information
+## 7. System Information
 ---
 
 ### 🔹uptime
@@ -94,7 +93,7 @@ Displays memory and swap usage.
           free -h
 ---
 
-## ⚙ Process Management
+## 8. Process Management
 ---
 
 ### 🔹ps
@@ -117,7 +116,7 @@ Terminates a running process using PID.
 
 ---
 
-## 🔐 Permissions & Ownership
+## 9. Permissions & Ownership
 ---
 
 ### 🔹chmod
@@ -134,7 +133,7 @@ Changes file ownership.
 
 ---
 
-## 📦 Package Management
+## 10. Package Management
 ---
 ### 🔹apt update
 #### Description:
@@ -153,7 +152,7 @@ Removes installed packages.
           sudo apt remove nginx
 ---
 
-## 🔁 Service Management
+## 11. Service Management
 ---
 ### 🔹 systemctl status
 #### Description:
@@ -168,7 +167,7 @@ Restarts a service.
           sudo systemctl restart nginx
 ---
 
-## 🌐 Networking (Common Use)
+## 12. Networking (Common Use)
 ---
 ### 🔹 ip a
 #### Description:
@@ -190,7 +189,7 @@ Tests APIs or fetches URLs.
           curl http://localhost:8080
 ---
 
-## 🔍 User & Session Management
+## 13. User & Session Management
 ---
 
 ### 🔹 who
@@ -206,7 +205,7 @@ Displays the current user.
           whoami
 ---
 
-## 🛠 Utility Commands
+## 14. Utility Commands
 ---
 
 ### 🔹 history
@@ -222,7 +221,7 @@ Clears terminal output.
           clear
 
 ---         
-## 🛠 Best Practices
+## 15. Best Practices
 
 - Use `less` instead of `cat` for large files
 - Verify process IDs before using `kill -9`
@@ -231,7 +230,8 @@ Clears terminal output.
 
 ---
 
-## 🌐Conclusion
+## 16. Conclusion
 
 This SOP provides a practical reference for commonly used Ubuntu commands required for daily operational tasks.  
 It helps improve efficiency, reduce errors, and maintain standard practices across teams.
+
