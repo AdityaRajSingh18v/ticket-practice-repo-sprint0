@@ -1,41 +1,40 @@
-# 📘 SOP – Common Ubuntu Commands
+#  SOP – Common Ubuntu Commands
 
-## 🔹 Document Details
+##  Document Details
 
-| Author           | Created    | Version | Last updated by  | Last Edited On | Pre Reviewer | L0 Reviewer | L1 Reviewer | L2 Reviewer |
-| ---------------- | ---------- | ------- | ---------------- | -------------- | ------------ | ----------- | ----------- | ----------- |
-| Aditya Raj Singh | 2026-01-20 | 1.0     | Aditya Raj Singh | 2026-01-20     |              |             |             |             | 
+| Author           | Created    | Version | Last updated by  | Last Edited On |L0 Reviewer | L1 Reviewer | L2 Reviewer |
+| ---------------- | ---------- | ------- | ---------------- | -------------- | ----------- | ----------- | ----------- |
+| Aditya Raj Singh | 2026-01-20 | 1.0     | Aditya Raj Singh | 2026-01-20     | Mohit kumar  | Pritam      |  Abhishek Dubey / Ravindra Kumar    | 
+
+---
+
+##  Table of Contents
+
+
+1. [Introduction](#1-introduction)
+2. [Purpose](#2-purpose)
+3. [Scope](#3-scope)
+4. [Pre-requisites](#4-pre-requisites)
+5. [Environment Verification](#5-environment-verification)
+6. [Command Reference](#6-command-reference)
+   - [File Operations](#61-file-operations)
+   - [User & Permission Commands](#62-user--permission-commands)
+   - [System Monitoring](#63-system-monitoring)
+   - [Process & Service Commands](#64-process--service-commands)
+   - [Network Commands](#65-network-commands)
+   - [Search & Text Processing](#66-search--text-processing)
+   - [Package Management (Linux Admin Work)](#67-package-management-linux-admin-work)
+   - [Compression & Archives](#68-compression--archives)
+7. [Conclusion](#7-conclusion)
+8. [References](#8-references)
+9. [Contact Information](#9-contact-information)
+
 
 ---
 
-## 📑 Table of Contents
-
-1. [Document Details](#-document-details)
-2. [Introduction](#1-introduction)
-3. [Purpose](#2-purpose)
-4. [Scope](#3-scope)
-5. [Prerequisites](#4-prerequisites)
-6. [File & Content Management Commands](#5-file--content-management-commands)
-7. [Directory & Disk Usage](#6-directory--disk-usage)
-8. [System Information](#7-system-information)
-9. [Process Management](#8-process-management)
-10. [Permissions & Ownership](#9-permissions--ownership)
-11. [Package Management](#10-package-management)
-12. [Service Management](#11-service-management)
-13. [Networking (Common Use)](#12-networking-common-use)
-14. [User & Session Management](#13-user--session-management)
-15. [Utility Commands](#14-utility-commands)
-16. [Best Practices](#15-best-practices)
-17. [Conclusion](#16-conclusion)
-18. [Author](#-author)
-19. [Contact Information](#-contact-information)
-20. [References](#-references)
-
----
 ## 1. Introduction
 
-This document provides a list of **commonly used Ubuntu (Linux) commands** that are frequently used in day-to-day system administration, application support, and DevOps operations.  
-
+This document provides a Standard Operating Procedure (SOP) for frequently used Linux commands. It helps users perform basic system tasks such as monitoring system health, managing files, validating network connectivity, and controlling running processes.
 
 ---
 
@@ -57,237 +56,163 @@ This SOP applies to:
 
 ---
 
-## 4. Prerequisites
+## 4. Pre-requisites
 
-- Access to an Ubuntu system
-- Terminal or SSH access
-- User account with appropriate permissions (sudo access where required)
-
----
-
-## 5. File & Content Management Commands
----
-### 🔹cat
-#### Description:
-Use to Displays the content of a file.
-
-          cat file.txt
-### 🔹less
-#### Description:
-Reads large files page by page.
-
-          less /var/log/syslog
-### 🔹head
-#### Description:
-Displays the first few lines of a file.
-
-          head file.txt
-### 🔹tail
-#### Description:
-Displays the last few lines of a file.
-            
-          tail file.txt
-### 🔹grep
-#### Description:
-Searches text inside files.
-
-          grep "error" file.txt
+| Requirement | Description |
+|-------------|-------------|
+| Operating System | Linux-based system |
+| User Access | Valid login credentials |
+| Privileges | Sudo access when required |
+| Terminal | Command-line interface |
+| Basic Knowledge | Familiarity with Linux shell |
 
 ---
 
-## 6. Directory & Disk Usage
----
-### 🔹du
-#### Description:
-Shows disk usage of files and directories.
+## 5. Environment Verification
 
-          du -sh /var/log
-### 🔹df
-#### Description:
-Displays filesystem disk usage.
-
-          df -h
----
-
-## 7. System Information
----
-
-### 🔹uptime
-#### Description:
-Shows how long the system has been running.
-
-          uptime
-### 🔹free
-#### Description:          
-Displays memory and swap usage.
-
-          free -h
----
-
-## 8. Process Management
----
-
-### 🔹ps
-#### Description:
-Displays running processes.
-
-          ps -ef
-
-### 🔹top
-#### Description:
-Shows real-time process and resource usage.
-
-          top
-### 🔹kill
-#### Description:
-Terminates a running process using PID.
-
-          kill 1234
-          kill -9 1234
+| Command | Description | Example |
+|--------|-------------|---------|
+| `whoami` | Displays current user | `whoami` |
+| `echo $SHELL` | Shows active shell | `/bin/bash` |
+| `ls --version` | Verifies command availability | `ls (GNU coreutils) 9.1` |
 
 ---
 
-## 9. Permissions & Ownership
----
+## 6. Command Reference
 
-### 🔹chmod
-#### Description:
-Changes file or directory permissions.
 
-          chmod 644 file.txt
-          chmod 755 script.sh
-### 🔹chown
-#### Description:
-Changes file ownership.
+### 6.1 File Operations
 
-          sudo chown user:group file.txt
+| Command | Description | Example |
+|--------|-------------|---------|
+| `pwd` | Displays current directory | `/home/ubuntu/projects` |
+| `ls -lh` | Lists files in detail | `config.yml 2K README.md 5K` |
+| `mkdir <dir>` | Creates directory | `mkdir logs` |
+| `touch <file>` | Creates empty file | `touch notes.txt` |
+| `cp <src> <dest>` | Copies file | `cp report.txt backup.txt` |
+| `mv <src> <dest>` | Renames/moves file | `mv old.log new.log` |
+| `rm <file>` | Deletes file | `rm temp.txt` |
+| `cat <file>` | Displays file content | `cat notes.txt → Hello World` |
+| `nano file` | Opens a file in the Nano editor for simple command-line editing. | `nano nginx.conf` |
+| `vi file` | Opens a file in the Vim editor for advanced editing. | `vi docker-compose.yml` |
 
----
 
-## 10. Package Management
----
-### 🔹apt update
-#### Description:
-Updates the package index.
 
-          sudo apt update
-### 🔹apt install
-#### Description:
-Installs packages.
+### 6.2 User & Permission Commands
 
-          sudo apt install nginx
-### 🔹apt remove
-#### Description:
-Removes installed packages.
+| Command | Description | Example |
+|--------|-------------|---------|
+| `whoami` | Shows logged-in user | `ubuntu` |
+| `id <user>` | Displays user identity | `id ubuntu → uid=1000` |
+| `groups` | Shows user groups | `groups → sudo docker` |
+| `chmod <mode> <file>` | Changes permissions | `chmod 755 app.sh` |
+| `chown <user>:<grp> <file>` | Changes ownership | `chown root:root config.conf` |
+| `passwd <user>` | Changes password | `passwd devuser` |
 
-          sudo apt remove nginx
----
 
-## 11. Service Management
----
-### 🔹 systemctl status
-#### Description:
-Checks the status of a service.
 
-          systemctl status nginx
+### 6.3 System Monitoring
 
-### 🔹 systemctl restart
-#### Description:
-Restarts a service.
+| Command | Description | Example |
+|--------|-------------|---------|
+| `uptime` | Shows system running time | `uptime → 2:10 up 3 days, load average: 0.05` |
+| `free -h` | Displays memory usage | `free -h → Mem: 7.7Gi used` |
+| `df -h` | Shows disk utilization | `df -h → /dev/sda1 40% used` |
+| `top` | Displays live processes | `top → PID 1203 nginx using CPU` |
+| `hostname` | Shows system name | `hostname → web-server-01` |
 
-          sudo systemctl restart nginx
----
 
-## 12. Networking (Common Use)
----
-### 🔹 ip a
-#### Description:
-Displays IP address information.
 
-          ip a
-### 🔹 telnet
-#### Description:
-Used to test connectivity to a specific port on a remote server.
-          
-          telnet google.com 80
-### 🔹 ping
+### 6.4 Process & Service Commands
 
-#### Description:
-Checks network connectivity.
+| Command | Description | Example |
+|--------|-------------|---------|
+| `ps aux` | Lists running processes | `nginx PID 1234 running` |
+| `kill <pid>` | Terminates process | `kill 1234` |
+| `systemctl status <svc>` | Shows service status | `systemctl status nginx → active` |
+| `systemctl restart <svc>` | Restarts service | `systemctl restart nginx` |
 
-          ping google.com
 
-### 🔹 curl
-#### Description:
-Tests APIs or fetches URLs.
 
-          curl http://localhost:8080
----
+### 6.5 Network Commands
 
-## 13. User & Session Management
----
+| Command | Description | Example |
+|--------|-------------|---------|
+| `ip a` | Displays IP addresses | `eth0 → 192.168.1.10` |
+| `ping <host>` | Tests connectivity | `ping google.com → time=20ms` |
+| `curl <url>` | Tests HTTP endpoint | `curl http://localhost:8080/health` |
+| `ss -tunlp` | Shows listening ports | `LISTEN 0.0.0.0:22` |
+| `hostname -I` | Shows system IP | `192.168.1.10` |
 
-### 🔹 who
-#### Description:
-Shows currently logged-in users.
 
-          who
 
-### 🔹 whoami
-#### Description:
-Displays the current user.
+## 6.6 Search & Text Processing
 
-          whoami
----
+| Command | Description | Example |
+|--------|-------------|---------|
+| `grep "text" file` | Searches for a specific text pattern inside a file. Commonly used in log analysis. | `grep "ERROR" app.log` |
+| `grep -R "text" /path` | Recursively searches for text in all files under a directory. | `grep -R "db_host" /etc` |
+| `awk '{print $1}' file` | Extracts and prints a specific column from a file (column-based processing). | `awk '{print $1}' users.txt` |
+| `sed 's/old/new/g' file` | Replaces all occurrences of a text pattern in a file. | `sed 's/http/https/g' config.txt` |
+| `wc -l file` | Counts the number of lines in a file. | `wc -l access.log` |
+| `sort file` | Sorts the contents of a file in alphabetical order. | `sort names.txt` |
+| `uniq` | Removes duplicate consecutive lines (usually used with sort). | `sort names.txt | uniq` |
 
-## 14. Utility Commands
----
 
-### 🔹 history
-#### Description:
-Shows previously executed commands.
 
-          history
+## 6.7 Package Management (Linux Admin Work)
 
-### 🔹 clear
-#### Description:
-Clears terminal output.
+### Ubuntu / Debian
 
-          clear
+| Command | Description | Example |
+|--------|-------------|---------|
+| `apt update` | Updates the local package index with the latest available packages. | `sudo apt update` |
+| `apt install nginx` | Installs the specified package on the system. | `sudo apt install nginx` |
+| `apt remove nginx` | Removes the installed package but keeps configuration files. | `sudo apt remove nginx` |
 
----         
-## 15. Best Practices
+### RHEL / CentOS
 
-- Use `less` instead of `cat` for large files
-- Verify process IDs before using `kill -9`
-- Regularly monitor disk usage using `df` and `du`
-- Use `sudo` only when required
+| Command | Description | Example |
+|--------|-------------|---------|
+| `yum install nginx` | Installs a package on RHEL/CentOS 7 and 8 systems using YUM. | `sudo yum install nginx` |
+| `dnf install nginx` | Installs a package on RHEL/CentOS 9 systems using DNF. | `sudo dnf install nginx` |
+
+
+
+## 6.8 Compression & Archives
+
+| Command | Description | Example |
+|--------|-------------|---------|
+| `tar -cvf file.tar dir` | Creates a TAR archive from a directory or files. | `tar -cvf backup.tar logs/` |
+| `tar -xvf file.tar` | Extracts files from a TAR archive. | `tar -xvf backup.tar` |
+| `tar -czvf file.tar.gz dir` | Creates a compressed TAR.GZ archive. | `tar -czvf app.tar.gz app/` |
+| `unzip file.zip` | Extracts contents of a ZIP archive. | `unzip release.zip` |
+| `zip -r file.zip dir` | Creates a ZIP archive recursively from a directory. | `zip -r project.zip project/` |
 
 ---
 
-## 16. Conclusion
+## 7. Conclusion
 
-This SOP provides a practical reference for commonly used Ubuntu commands required for daily operational tasks.  
-It helps improve efficiency, reduce errors, and maintain standard practices across teams.
-
-## 🔹 Author
-
-| Name             | Role            | Team                 |
-| ---------------- | --------------- | -------------------- |
-| Aditya Raj Singh | DevOps Trainee | Saarthi |
-
-
-## 🔹 Contact Information
-
-| Contact Type | Details                                                             |
-| ------------ | ------------------------------------------------------------------- |
-| Email        | [tadityaraj.singh18@gmail.com](mailto:tadityaraj.singh18@gmail.com) |
+This SOP provides a structured and practical reference for commonly used Ubuntu/Linux commands required for daily operational, administrative, and troubleshooting tasks. By following standardized command usage, users can work more efficiently, reduce errors, and maintain consistency across environments. This document serves as a quick guide for support engineers, system administrators, and DevOps professionals in real-world scenarios.
 
 ---
 
-## 🔹 References
+## 8. References
 
-| Links | Descriptions |
-|------|-------------|
-| https://www.geeksforgeeks.org/linux-unix/25-basic-ubuntu-commands/ | Basic Ubuntu Commands |
+| Description | Link |
+|------------|------|
+| Linux manual pages (official) | [https://man7.org/linux/man-pages/](https://man7.org/linux/man-pages/) |
+| Ubuntu official documentation | [https://help.ubuntu.com/](https://help.ubuntu.com/) |
+| Linux basic commands reference | [https://www.geeksforgeeks.org/linux-unix/](https://www.geeksforgeeks.org/linux-unix/) |
+| Linux command line fundamentals | [https://linuxcommand.org/](https://linuxcommand.org/) |
+
+---
+
+## 9. Contact Information
+
+| Name             | Team                 | Contact Type | Details                                                                               |
+| ---------------- | -------------------- | ------------ | ------------------------------------------------------------------------------------ |
+| Aditya Raj Singh | Saarthi              |Email        | [aditya.singh.snaatak@mygurukulam.co](mailto:aditya.singh.snaatak@mygurukulam.co) |
+
+---
 
