@@ -201,10 +201,9 @@ This SOP provides a structured and practical reference for commonly used Ubuntu/
 
 | Description | Link |
 |------------|------|
-| Linux manual pages (official) | [https://man7.org/linux/man-pages/](https://man7.org/linux/man-pages/) |
-| Ubuntu official documentation | [https://help.ubuntu.com/](https://help.ubuntu.com/) |
-| Linux basic commands reference | [https://www.geeksforgeeks.org/linux-unix/](https://www.geeksforgeeks.org/linux-unix/) |
-| Linux command line fundamentals | [https://linuxcommand.org/](https://linuxcommand.org/) |
+| Ubuntu official documentation | [Documentation](https://ubuntu.com/tutorials/command-line-for-beginners#4-creating-folders-and-files) |
+| Linux basic commands reference | [Linux commands](https://www.geeksforgeeks.org/linux-unix/25-basic-ubuntu-commands/) |
+
 
 ---
 
